@@ -16,6 +16,6 @@ int main(void)
     // // Declared pointer to int
     // printf("%p\n", p);
 
-    // Declared pointer to int
+    // Call what's being held to pointer variable
     printf("%i\n", *p);
 }
