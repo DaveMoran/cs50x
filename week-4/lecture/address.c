@@ -3,11 +3,19 @@
 int main(void)
 {
     int n = 50;
-    printf("%i\n", n);
+    int *p = &n;
 
-    // Check address
-    printf("%p\n", &n);
+    // printf("%i\n", n);
 
-    // Dereference
-    printf("%i\n", *&n);
+    // // Check address
+    // printf("%p\n", &n);
+
+    // // Dereference
+    // printf("%i\n", *&n);
+
+    // // Declared pointer to int
+    // printf("%p\n", p);
+
+    // Declared pointer to int
+    printf("%i\n", *p);
 }
