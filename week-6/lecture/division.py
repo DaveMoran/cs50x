@@ -4,5 +4,5 @@ x = int(input("x: "))
 # Prompt user for y
 y = int(input("y: "))
 
-# Print sum
+# Print answer
 print(x / y)
